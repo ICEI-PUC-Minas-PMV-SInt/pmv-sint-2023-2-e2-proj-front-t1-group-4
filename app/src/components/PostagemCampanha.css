@@ -1,0 +1,60 @@
+  
+  .content-container {
+    background-color: #fff; 
+    padding: 20px;
+    width: 100%;
+    max-width: 800px;
+    margin-top: 20px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .postagem-title {
+    font-size: 24px;
+    margin: 0 0 20px;
+    color: black; 
+  }
+  
+  .postagem-input {
+    margin: 10px 0;
+  }
+  
+  .postagem-input label {
+    display: block;
+    font-size: 18px;
+  }
+  
+  .postagem-input input,
+  .postagem-input textarea,
+  .postagem-input select {
+    width: 98%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #b8b1b1;
+    border-radius: 5px;
+    margin-top: 5px;
+  }
+  
+  .postagem-button {
+    background-color: #8b69c2; 
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+
+body {
+    background-color: white
+    ;
+  }
+  
+  .content-container {
+    background-color: #fff; 
+    padding: 20px;
+    width: 100%;
+    max-width: 800px;
+    margin: 20px auto; 
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1); 
+  }
+  
