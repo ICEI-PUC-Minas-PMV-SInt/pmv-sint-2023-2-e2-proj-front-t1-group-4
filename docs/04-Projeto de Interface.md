@@ -36,10 +36,10 @@ Visão geral da interação do usuário pelas telas do sistema e protótipo inte
 <img src="https://github.com/ICEI-PUC-Minas-PMV-SInt/pmv-sint-2023-2-e2-proj-front-t1-group-4/blob/main/imagens-docs/pagina-login.jpeg?raw=true" style="width: 100%;"></img><br>
 <strong>Interface 2.3 B:</strong> Esta interface é usada para fazer login no sistema.<hr>
 
-## Interface 2.4 B: Postagem de Campanhas (ONGs)
+    ## Interface 2.4 B: Postagem de Campanhas (ONGs)
 
-<img src="https://github.com/ICEI-PUC-Minas-PMV-SInt/pmv-sint-2023-2-e2-proj-front-t1-group-4/blob/main/imagens-docs/pagina-de-postagem.jpeg?raw=true" style="width: 100%;"></img><br>
-<strong>Interface 2.4 B:</strong> Esta interface é usada pelas ONGs para fazer postagens de campanhas.<hr>
+    <img src="https://github.com/ICEI-PUC-Minas-PMV-SInt/pmv-sint-2023-2-e2-proj-front-t1-group-4/blob/main/imagens-docs/pagina-de-postagem.jpeg?raw=true" style="width: 100%;"></img><br>
+    <strong>Interface 2.4 B:</strong> Esta interface é usada pelas ONGs para fazer postagens de campanhas.<hr> 
 
 ## Interface 3.1 A: Dashboard para ONGs
 

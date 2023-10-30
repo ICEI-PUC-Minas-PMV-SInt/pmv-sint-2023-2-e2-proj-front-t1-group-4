@@ -1,0 +1,64 @@
+/* Melhorias no estilo */
+.square {
+  width: 100%;
+  max-width: 800px;
+  height: auto; /* Mude a altura para automática para permitir que a altura se ajuste ao conteúdo */
+  border-radius: 10px;
+  margin: 20px auto;
+  text-align: center;
+  color: black;
+  font-size: 20px;
+  display: flex;
+  flex-direction: column; /* Altere a direção do flex para coluna */
+  align-items: center;
+  border: 4px solid #343451;
+  position: relative;
+  padding: 20px;
+}
+
+.quadrado-menor {
+  width: 150px;
+  height: 180px;
+  background-color: #343451;
+  border-radius: 5px;
+  text-align: center;
+  color: #fff;
+  font-size: 14px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px 0; /* Adicione um espaçamento superior e inferior */
+}
+
+.logo {
+  max-width: 100%;
+  max-height: 150px; /* Adicione uma altura máxima para a imagem do logotipo */
+}
+
+.texto-ao-lado {
+  width: 100%; /* Use 100% de largura para garantir que o texto se ajuste à div */
+  text-align: left;
+  font-size: 18px;
+  line-height: 1.4;
+  margin: 10px 0; /* Adicione um espaçamento superior e inferior */
+}
+
+.botao-no-canto {
+  position: absolute;
+  bottom: 10px;
+  right: 20px;
+  background-color: #343451;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+/* Estilo para o botão quando o mouse passa por cima */
+.botao-no-canto:hover {
+  background-color: #4b4b70;
+  color: #fff;
+}
+

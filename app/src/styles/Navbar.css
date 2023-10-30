@@ -1,0 +1,76 @@
+/* Navbar Styling */
+.header {
+  background-color: #28a745;
+  color: #fff;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  height: 50px; 
+  margin-right: 20px; 
+}
+
+.header-links {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.header-links a:hover {
+  color: #13860f; 
+}
+
+.header-links li {
+  margin-right: 20px;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-align: center;
+  user-select: none;
+  cursor: pointer;
+  transition: background-color 0.5s;
+}
+
+
+.header-links a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+  font-size: 18px; 
+  font-family: cursive;
+}
+
+
+@media (max-width: 768px) {
+  .logo {
+    margin-right: 10px; 
+  }
+
+  .header-links {
+    display: none;
+  }
+
+  .header-links.open {
+    display: flex;
+    flex-direction: column;
+    background-color: #28a745;
+    position: absolute;
+    top: 60px;
+    right: 20px; /* Espaçamento da direita */
+    width: 200px; /* Largura do menu */
+    z-index: 1;
+  }
+
+  .menu-toggle {
+    display: block;
+    font-size: 24px;
+    cursor: pointer;
+  }
+
+  .menu-toggle.open {
+    transform: rotate(90deg); /* Ícone de menu rotacionado quando o menu está aberto */
+  }
+}

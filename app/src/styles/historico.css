@@ -1,0 +1,152 @@
+.historico-card {
+    background-color: white;
+    display: flex;
+    column-gap: 10px;
+    justify-content: center;
+    align-items: center;
+    height: 95%;
+    width: 100%;
+}
+
+.campanha-box {
+    display: flex;
+    flex-direction: column;
+    row-gap: 5px;
+    background-color: white;
+    width: 95%;
+    height: 95%;
+}
+
+.barra {
+    background-color: #CBCBCB;
+    height: 95%;
+    width: 1%;
+}
+
+.historico-box {
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    align-items: start;
+    width: 35%;
+    height: 95%;
+}
+
+.campanha-titulo,
+.historico-titulo {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    background-color: #CBCBCB;
+    width: 50%;
+    margin: 0px;
+}
+
+.historico-titulo h2 {
+
+    margin-left: 10px;
+    font-size: 14px;
+
+}
+
+.campanha-titulo  h2 {
+
+    margin-left: 10px;
+    font-size: 13px;
+
+}
+
+.campanha-feed {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    background-color: #E6E6E6;
+    column-gap: 10px;
+    width: 100%;
+    height: 50%;
+
+}
+
+.banner-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 25%;
+    margin: 0px;
+    border: solid 2px black;
+
+    cursor: pointer;
+}
+
+.banner-box img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+    margin: 0px;
+}
+
+.campanha-descrição {
+    cursor: pointer;
+    height: 80%;
+    margin: 10px 0px;
+    width: 80%;
+    margin-right: 10px;
+    background-color: #CBCBCB;
+
+}
+
+.campanha-descrição p {
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 15px;
+}
+
+.historico {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    row-gap: 15px;
+    align-items: center;
+    background-color: #E6E6E6;
+    width: 100%;
+    height: 90%;
+}
+
+.historico-feed {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    column-gap: 25px;
+    background-color: #CBCBCB;
+    width: 100%;
+    height: 25%;
+}
+
+.historico-descrição {
+    width: 55%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50%;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.campanha-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 25%;
+    margin-left: 10px;
+    height: 100%;
+    cursor: pointer;
+}
+
+.campanha-logo img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+    border-radius: 100%;
+    margin: 0px;
+    border: solid 2px black;
+}
