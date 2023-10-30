@@ -1,5 +1,5 @@
 import React from 'react';
-import styles from './Quadro.module.css';
+import styles from '../styles/Quadro.module.css';
 
 function Quadro(props) {
   return (

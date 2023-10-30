@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import './PostagemCampanha.css'; 
+import '../styles/PostagemCampanha.css'; 
 
 function PostagemCampanha() {
   const [titulo, setTitulo] = useState('');

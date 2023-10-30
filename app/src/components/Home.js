@@ -1,9 +1,13 @@
 import React from 'react';
 import Quadro from './Quadro';
 import Button from './Button';
-import styles from './Home.component.module.css';
+import styles from '../styles/Home.component.module.css';
+
+
 
 function Home() {
+
+
   return (
     <div className={styles.formato}>
       <div className={styles.texto}>
@@ -34,9 +38,18 @@ function Home() {
           <h1>Cadastre-se e venha fazer a diferença!</h1>
         </div>
         <div className={styles.disposicao}>
-          <Button customClass="larger" text="Seja um doador" />
-          <Button customClass="larger" text="Seja uma instituição parceira" />
-        </div>
+        <Button
+        customClass="larger"
+        text="Seja um doador"
+      />
+<Button
+  customClass="larger"
+  text="Seja uma instituição parceira"
+/>
+
+
+</div>
+
       </div>
       <div>
         <div className={styles.texto}>

@@ -1,0 +1,115 @@
+.perfil-container {
+    display: flex;
+    align-items: center;
+    column-gap: 20px;
+    height: 70%;
+    width: 90%;
+}
+
+.perfil-container img {
+    max-width: 90%;
+    border-radius: 50%;
+    height: auto;
+}
+
+.avatar-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 25%;
+}
+
+
+.info-card {
+    background-color: #E6E6E6;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+    width: 70%;
+    height: 90%;
+}
+
+.configurações-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    row-gap: 10px;
+    background-color: #E6E6E6;
+    width: 50%;
+    height: 90%;
+    border-top-right-radius: 25%;
+}
+
+.user-dados {
+    display: flex;
+    flex-direction: row;
+    width: 70%;
+    justify-content: start;
+    align-items: center;
+}
+
+.user-nome {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    width: 70%;
+    margin-left: 30px;
+}
+
+.user-tag {
+    display: flex;
+    width: 70%;
+    justify-content: start;
+    align-items: end;
+    margin-left: 30px;
+}
+
+.descrição-box {
+    display: flex;
+    width: 80%;
+    justify-content: center;
+    align-items: center;
+    margin-left: 30px;
+    margin-top: 5px;
+    margin-bottom:  5px;
+    background-color: #CBCBCB;
+}
+
+.info-card p {
+    margin: 0px;
+    font-size: 15px;
+    color: #888888;
+}
+
+.info-card h2 {
+    margin: 0px;
+    font-size: 20px;
+}
+
+.info-card h3 {
+    margin: 12px;
+    font-size: 12px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #363636;
+}
+
+.user-dados h1 {
+    margin: 0px;
+    margin-right: 10px;
+    font-size: 15px;
+}
+
+.user-dados h2 {
+    margin: 0px;
+    font-size: 12px;
+}
+
+.user-dados h3 {
+    margin: 0px;
+    font-size: 12px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #363636;
+
+}

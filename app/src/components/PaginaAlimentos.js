@@ -1,9 +1,9 @@
 import React from 'react';
-import './PaginaAlimentos.css'; 
-import LogoBanana from '../assets/icons8-banana-96.png';
-import LogoAbacaxi from '../assets/icons8-abacaxi-96.png';
-import LogoMaca from '../assets/icons8-maca.png';
-import LogoMelancia from '../assets/icons8-melancia-96.png';
+import '../styles/PaginaAlimentos.css'; 
+import LogoBanana from '../assets/icons/icons8-banana-96.png';
+import LogoAbacaxi from '../assets/icons/icons8-abacaxi-96.png';
+import LogoMaca from '../assets/icons/icons8-maca.png';
+import LogoMelancia from '../assets/icons/icons8-melancia-96.png';
 
 function PaginaAlimentos() {
     return (

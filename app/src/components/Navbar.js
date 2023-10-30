@@ -1,5 +1,5 @@
 import React from 'react';
-import './Navbar.css';
+import '../styles/Navbar.css';
 
 function Navbar() {
   return (
@@ -10,6 +10,7 @@ function Navbar() {
       <nav>
         <ul className="header-links">
           <li><a href="/">Home</a></li>
+          <li><a href="/perfil">Perfil</a></li>
           <li><a href="/campanhas-de-doacao">Campanhas de Doação</a></li>
           <li><a href="/cadastre-se">Cadastre-se</a></li>
           <li><a href="/login">Login</a></li>
