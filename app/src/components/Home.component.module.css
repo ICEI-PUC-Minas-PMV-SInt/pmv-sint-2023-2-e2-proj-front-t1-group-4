@@ -1,0 +1,87 @@
+.formato {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.texto {
+    text-align: center;
+    margin-bottom: 20px;
+    font-family: Arial, sans-serif;
+    font-size: 24px;
+    line-height: 1.5;
+    color: #333;
+}
+
+.quadro {
+    display: flex;
+    margin: 20px 0;
+}
+
+.disposicao {
+    justify-content: space-evenly;
+    display: flex;
+    margin: 20px 0;
+}
+
+.margem {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 20px;
+}
+
+.carroseul_margem {
+    margin: 20px 0;
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.imagem {
+    height: 300px;
+    width: 300px;
+    border-radius: 10px;
+    border: 1px solid black;
+    margin: 10px;
+}
+
+.display_imagens {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Estilos para telas menores (responsividade) */
+@media (max-width: 768px) {
+    .quadro {
+        flex-direction: column;
+    }
+
+    .imagem {
+        width: 100%;
+        margin: 10px 0;
+    }
+
+    .disposicao {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .carroseul_margem {
+        margin: 20px 0;
+    }
+
+    .display_imagens {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .imagemContainer {
+        width: 70%;
+        margin: 20px 0;
+    }
+
+    .margem {
+        font-size: 18px;
+    }
+}

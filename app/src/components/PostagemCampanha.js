@@ -1,7 +1,5 @@
-// PostagemCampanha.js
-
 import React, { useState } from 'react';
-import './PostagemCampanha.css'; // Importe o arquivo de estilo CSS
+import './PostagemCampanha.css'; 
 
 function PostagemCampanha() {
   const [titulo, setTitulo] = useState('');
@@ -14,12 +12,11 @@ function PostagemCampanha() {
   });
 
   const handlePostagem = () => {
-    // Implemente a lógica para enviar a postagem para o servidor ou realizar ações necessárias.
   };
 
   return (
     <div className="page-container">
-      <div className="content-container"> {/* Conteúdo da postagem */}
+      <div className="content-container"> {}
         <h2 className="postagem-title">Postagem de Campanhas (ONGs)</h2>
         <form>
           <div className="postagem-input">
